@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: gainsboro;
+}
+}
+.all {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+ 
+  padding-top: 50px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+background: url("https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 600px 600px;
+
+border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+input,
+p,
+label,
+textarea,
+h1 {
+  /* background-color: gainsboro; */
+}
